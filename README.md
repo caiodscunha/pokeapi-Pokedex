@@ -2,7 +2,7 @@
 
 ## 📃 Descrição
 
-Este projeto é uma Pokedex simples que exibe todos os Pokémon da primeira geração. A requisição dos dados é feita utilizando a **PokeAPI** através da `fetch` API no Javascript. O aplicativo apresenta uma lista com informações dos Pokémon, incluindo nome, número, tipo e imagem. Clicando nos pokemons será redirecionado para uma página de detalhes simples(A ser finalizada).
+Este projeto é uma Pokedex simples que exibe todos os Pokémon da primeira geração. A requisição dos dados é feita utilizando a **PokeAPI** através da `fetch` API no Javascript. O aplicativo apresenta uma lista com informações dos Pokémon. Clicando em um pokemon, será redirecionado para uma página de detalhes simples(A ser finalizada).
 
 ## 💻 Tecnologias utilizadas
 * **HTML**
