@@ -1,0 +1,97 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.back-button {
+    background-color: transparent;
+    border: 1px;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 3rem;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: rgba(141, 135, 135, 0.5);
+}
+
+.content {
+    padding: 0;
+    display: flex; 
+    flex-direction: column;
+    min-height: 95vh;
+    height: 100%;
+    border: 1px solid #c9c9c9;
+}
+
+h2{
+    text-transform: capitalize;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.basicDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.basicDetails .infoRow{
+    display: flex;
+    align-items: center;
+}
+
+.basicDetails .types{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 1rem;
+    list-style: none;
+}
+
+.basicDetails .number{
+    width: 100%;
+    text-align: end;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: .25rem;
+    margin: .25rem;
+
+}
+
+.basicDetails .types .type{
+    color: #FFFFFF;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: 1rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.basicDetails .pokemonImage{
+    width: 15rem;
+    margin: auto;
+}
+
+.pokemonDetail {
+    display: flex; 
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 100%;
+    
+}
+
+.allDetails {
+    background-color: #FFFFFF;
+    border-radius: 1rem 1rem 0 0;
+    padding: 1rem;
+    flex-grow: 1;
+    min-height: 100%;
+    
+}
